@@ -34,7 +34,7 @@ def compare_faces(sourceFile, targetFile):
 def main():
     source_file='luke_skywalker1.jpg'
     list_target_file=['Han_solo.jpg','luke_skywalker1.jpg','luke_skywalkerAdulto1.jpg','luke_skywalkerAdulto2.jpg',
-    'luke_skywalkerAdulto3.jpg','luke_skywalkerCaricatura.jpg','luke_skywalkerEdadViejo.jpg','luke_skywalkerFormatoDistinto.bmp',
+    'luke_skywalkerCaricatura.jpg','luke_skywalkerEdadViejo.jpg','luke_skywalkerFormatoDistinto.bmp',
     'luke_skywalkerFormatoPng.png','luke_skywalkerMismaEdad.jpg','luke_skywalkerVideoJuegoRealista.jpg',
     'luke_junto_a_actor_diferente.jpg','ValorMinimoResolucion1.jpg','ValorMinimoResolucion2.jpg','ValorMaximoResolucion1.jpg','']
     for target_file in list_target_file:
