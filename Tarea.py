@@ -22,7 +22,7 @@ def compare_faces(sourceFile, targetFile):
             position = faceMatch['Face']['BoundingBox']
             similarity = str(faceMatch['Similarity'])
             log('INFO: La cara en la posicion:' + str(position['Left']) + ' ' + str(position['Top']) +
-            ' tiene una similitud de: ' + similarity + '% de confiancia')
+            ' tiene una similitud de: ' + similarity + '% de confianza')
 
         imageSource.close()
         imageTarget.close()
